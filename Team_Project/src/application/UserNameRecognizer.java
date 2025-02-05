@@ -82,6 +82,7 @@ public class UserNameRecognizer {
 	 *         String with a helpful description of the error
 	 */
 	public static String checkForValidUserName(String input) {
+		foundSpace = false; // reset found space
 		// Check to ensure that there is input to process
 		if (input.length() <= 0) {
 			userNameRecognizerIndexofError = 0; // Error at first character;
