@@ -6,3 +6,5 @@ This is our project that at the moment has user and admin users with multiple ro
 We also have input validation on our username and password fields.
 Username - no spaces allowed, must be unique username
 Password - no spaces allowed, special character needed, capital needed, and length greater than or equal to 6 characters
+
+We have added a new role "Reviewer" which can create, update, and remove reviews on questions and answers posted by other users. They can also see all the reviews the have posted on questions and answers to be able to see what they have posted.
